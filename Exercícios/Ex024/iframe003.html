@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam officia molestias neque fuga rem, quos perferendis, illum est autem ducimus voluptatum. Labore recusandae enim ex, eaque et in animi magnam?</p>
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, officia ratione ab quia voluptates aut corporis vero. Temporibus, porro voluptate aliquid doloribus autem, expedita quia explicabo enim cumque dolorem totam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt excepturi deleniti consequuntur quam, praesentium possimus. Magni id voluptatum at, voluptatibus maiores laudantium velit odio, quas nam atque perferendis, dicta necessitatibus.</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1>">
+        <p>Infelizmente seu navegador não é compatível com isso</p>
+    </iframe>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id in optio labore numquam debitis culpa quas, voluptatum magni totam corporis itaque doloremque dolorem necessitatibus impedit soluta assumenda inventore praesentium. Ratione? Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nulla esse ad vel accusantium, modi quibusdam quam nostrum, ab provident at pariatur magnam nobis maiores illo magni error atque suscipit.</p>
+</body>
+</html>
